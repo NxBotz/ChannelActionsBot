@@ -305,6 +305,6 @@ async def broad(e):
 
 
 log.info("Started Bot - %s", bot_username)
-log.info("\n@Nx_Botz\n\nBy - @xditya.")
+log.info("\n@Nx_Botz\n\nBy - @Irfan50786.")
 
 bot.run_until_disconnected()
