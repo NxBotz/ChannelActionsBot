@@ -17,10 +17,10 @@ log.info("\n\nStarting...\n")
 
 
 try:
-    bot_token = config("BOT_TOKEN")
-    REDIS_URI = config("REDIS_URI")
-    REDIS_PASSWORD = config("REDIS_PASSWORD")
-    AUTH = [int(i) for i in config("OWNERS").split(" ")]
+    bot_token = "5136177339:AAF2w85bKr8C4_3-KPy9ycpk3t1OaUaeyRs"
+    REDIS_URI = "redis-17675.c57.us-east-1-4.ec2.cloud.redislabs.com:17675"
+    REDIS_PASSWORD = "Eislmh2Gdq9FIMPrLflah9iPoP8lAiXH"
+    AUTH = 1125671241
 except Exception as e:
     log.exception(e)
     exit(1)
