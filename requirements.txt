@@ -2,6 +2,6 @@ https://github.com/New-dev0/Telethon/archive/Artifact.zip
 python-decouple
 aioredis
 hiredis
-click==8.1.3
 Flask==2.2.2
 gunicorn==20.1.0
+aiohttp==3.8.1
